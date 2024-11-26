@@ -26,7 +26,7 @@ async function displayImages() {
         // Adicionando eventos de clique para cada imagem carregada
         addImageClickEvents();
     } catch (error) {
-        console.error("Erro ao popular página", error);
+        //console.error("Erro ao popular página", error);
     }
 }
 
