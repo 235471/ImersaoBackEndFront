@@ -5,7 +5,7 @@ export default async function fetchImages() {
   try {
     const response = await fetch(apiURL); // Usando a URL importada
     const data = await response.json();
-    console.log(data);
+    console.log("hello");
     return data;
   } catch (error) {
     //console.error("Erro ao buscar dados:", error);
