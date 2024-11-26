@@ -7,6 +7,6 @@ export default async function fetchImages() {
     const data = await response.json();
     return data;
   } catch (error) {
-    console.error("Erro ao buscar dados:", error);
+    //console.error("Erro ao buscar dados:", error);
   }
 }
